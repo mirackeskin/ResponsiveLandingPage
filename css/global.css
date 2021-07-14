@@ -1,0 +1,48 @@
+/*Text*/
+
+.text-center{
+    text-align: center;
+}
+
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size:1.75rem;
+}
+
+/*Colors*/
+.bg-dark-blue{
+    background:crimson;/*#062E51;*/
+}
+.bg-light-blue{
+    background: #336EA2;
+}
+/*Buttons*/
+.btn{
+    margin-top: 1.25rem;
+    padding: 0.8rem 2rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+.btn-danger{
+    background: crimson;
+    
+}
+.btn-danger:hover{
+    background: transparent;
+    border: 0.5px solid crimson;
+    color: crimson;
+}
+.btn-block{
+    width: 100%;
+    text-align: center;
+}
+/*Container*/
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
