@@ -16,7 +16,7 @@
 
 /*Colors*/
 .bg-dark-blue{
-    background:crimson;/*#062E51;*/
+    background:#062E51;
 }
 .bg-light-blue{
     background: #336EA2;
@@ -28,14 +28,14 @@
     border-radius: 7px;
     letter-spacing: 0.5px;
 }
-.btn-danger{
-    background: crimson;
+.btn-primary{
+    background: #062E51;
     
 }
-.btn-danger:hover{
+.btn-primary:hover{
     background: transparent;
-    border: 0.5px solid crimson;
-    color: crimson;
+    border: 0.5px solid #062E51;
+    color: #062E51;
 }
 .btn-block{
     width: 100%;
@@ -45,4 +45,20 @@
 .container{
     max-width: 1100px;
     margin: 0 auto;
+}
+
+/*Forms*/
+.form-group{
+    padding: 0.25rem 0;
+
+}
+.form-group label{
+    display: block;
+}
+.form-control{
+    width: 100%;
+    padding: 0.25rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 8px;
 }

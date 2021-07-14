@@ -18,3 +18,25 @@
 #home .name p{
     font-size:0.85rem;
 }
+
+/*Training Sections*/
+
+#training .items{
+    display: flex;
+    flex-direction: column;
+}
+#training .items .item{
+    width: 100%;
+}
+
+/*Courses*/
+
+.course{
+    display: flex;
+    flex-direction: column;
+}
+#courses .container .courses .course .course-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
